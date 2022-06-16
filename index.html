@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,53 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>HTML es un leguaje de etiquetado en cascada</h1>
-    <p>Las etiquetas <strong> HTML </strong> son fragmentos de código que permiten crear elementos <strong> HTML, </strong> estructuras básicas del lenguaje de programación <strong> HTML </strong> en el que se escriben las páginas web porque es el que entienden los navegadores.</p>
-    <h1> CSS es un Leguaje de Estilos.</h1>
-    <P> <strong> CSS </strong>es un lenguaje de estilos que nos permite personalizar la apariencia de los elementos que hemos agregado en nuestro <strong> HTML. </strong> </P>
-    <!-- Ceracion de un Boton para obetener el correo del usuario-->
-  <form>
-    <input type="email" />
-    <button type="submit">
-      Try it now &rarr;
-    </button>
-  </form>
-  <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="imagen capterra" />
+    <header class="header">
+        <!-- Logo con link a la página principal -->
+        <a href="/" class="logo">
+            <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="imagen matcha">
+        </a>
+        <!-- Menú de navegación -->
+        <nav class="navbar">
+            <ul>
+                <li>Products</li>
+                <li>Templates</li>
+                <li>Pricing</li>
+                <li>Customers</li>
+                <li>Blog</li>
+                <li>Resources</li>
+            </ul>
+        </nav>
+        <!-- Contenedor de acciones de usuario -->
+        <div class="actions">
+            <a href="">Sign In</a>
+            <button>Prueba Gratis</button>
+        </div>
+    </header>
+    <section class="main">
+        <h1>HTML es un leguaje de etiquetado en cascada</h1>
+        <p>Las etiquetas <strong> HTML </strong> son fragmentos de código que permiten crear elementos <strong> HTML,
+            </strong> estructuras básicas del lenguaje de programación <strong> HTML </strong> en el que se escriben las
+            páginas web porque es el que entienden los navegadores.</p>
+        <h1> CSS es un Leguaje de Estilos.</h1>
+        <P> <strong> CSS </strong>es un lenguaje de estilos que nos permite personalizar la apariencia de los elementos
+            que hemos agregado en nuestro <strong> HTML. </strong> </P>
+        <!-- Ceracion de un Boton para obetener el correo del usuario-->
+        <form>
+            <input type="email" />
+            <button type="submit">
+                Try it now &rarr;
+            </button>
+        </form>
+        <p>
+            Start publishing today with a <strong>7-day trial.</strong>
+        </p>
+        <p>
+            <strong>No credit card</strong> required.
+        </p>
+        <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="imagen capterra" />
+    </section>
 </body>
-</html> 
+
+</html>
